@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Didact+Gothic&family=Edu+TAS+Beginner&family=Teko:wght@500&display=swap" rel="stylesheet">
+    <title>Diosadele</title>
+</head>
+<body id="bod">
+    <div id="entorno">
+        <header id="header"><h1>ADELE <div id="e"></div></h1></header>
+        <img src="https://cutt.ly/VL3f4vC" width="100px" id="img">
+        <h2 id="frase"></h2>
+        <p>Bienvenido a la página que te dará una foto y una canción al azar</p>
+        <p>Primero selecciona la era</p>
+        <select id="era">
+            <option value="null">Seleccionar</option>
+            <option>19</option>
+            <option>21</option>
+            <option>25</option>
+            <option>30</option>
+        </select>
+        <br>
+        <input type="button" value="Enter" onclick="verificadorEra()" id="btn1">
+        <br>
+        
+        <div id="des"></div>
+        <br>
+        <div id="photo">
+            <img id="img1" style="width: 200px;"/>
+        </div>
+        <br>
+        <div id="eras"></div>
+        <br>
+        <div id="es">
+            <input id="btn2" type="button" value="Enter" onclick="verificadorA()" >
+            
+        </div>
+
+
+        <script src="main.js"></script>
+        
+    </div>
+    
+</body>
+</html>

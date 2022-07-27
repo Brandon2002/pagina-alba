@@ -1,0 +1,44 @@
+h1, h2{
+    text-align: center;
+    color: aliceblue;
+    
+}
+header{
+    background-color: black;
+    text-align: center;
+}
+img, select, input{
+    display: block;
+    margin: auto;
+}
+
+p{
+    text-align: center;
+    color: aliceblue;
+}
+
+div #es{
+    text-align: center;
+    color: aliceblue;
+}
+
+div #eras, #des{
+    text-align: center;
+    color: aliceblue;
+}
+
+
+div #es{
+    display: none;
+}
+
+#btn1:hover{
+    background-color: #37d480;
+    color: black;
+    border: none;
+}
+
+body{
+    background:black;
+}
+
